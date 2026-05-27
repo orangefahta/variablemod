@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "dev/orangefahta/variablemod/mixin/ChatMessageMixin": {
+      "executeCommand": "Lnet/minecraft/class_3244;method_58590(Ljava/lang/String;)V",
+      "onChatCommandSigned": "Lnet/minecraft/class_3244;method_58580(Lnet/minecraft/class_9449;)V",
+      "onChatMessage": "Lnet/minecraft/class_3244;method_12048(Lnet/minecraft/class_2797;)V"
+    },
+    "dev/orangefahta/variablemod/mixin/CommandManagerMixin": {
+      "execute": "Lnet/minecraft/class_2170;method_9249(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V"
+    },
+    "dev/orangefahta/variablemod/mixin/VarCommandMixin": {
+      "executeWithPrefix": "Lnet/minecraft/class_2170;method_44252(Lnet/minecraft/class_2168;Ljava/lang/String;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/orangefahta/variablemod/mixin/ChatMessageMixin": {
+        "executeCommand": "Lnet/minecraft/class_3244;method_58590(Ljava/lang/String;)V",
+        "onChatCommandSigned": "Lnet/minecraft/class_3244;method_58580(Lnet/minecraft/class_9449;)V",
+        "onChatMessage": "Lnet/minecraft/class_3244;method_12048(Lnet/minecraft/class_2797;)V"
+      },
+      "dev/orangefahta/variablemod/mixin/CommandManagerMixin": {
+        "execute": "Lnet/minecraft/class_2170;method_9249(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V"
+      },
+      "dev/orangefahta/variablemod/mixin/VarCommandMixin": {
+        "executeWithPrefix": "Lnet/minecraft/class_2170;method_44252(Lnet/minecraft/class_2168;Ljava/lang/String;)V"
+      }
+    }
+  }
+}

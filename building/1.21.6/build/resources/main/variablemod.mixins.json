@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.orangefahta.variablemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "VarCommandMixin",
+    "ChatMessageMixin",
+    "CommandManagerMixin"
+  ],
+  "client": [
+    "CommandSuggestionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

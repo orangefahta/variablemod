@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "variablemod",
+  "version": "1.0.0",
+  "name": "VariableMod",
+  "description": "Adds /variable command for storing and using named variables in commands.",
+  "authors": ["OrangeFaHTA"],
+  "icon": "assets/variablemod/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.orangefahta.variablemod.VariableMod"]
+  },
+  "mixins": ["variablemod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.7"
+  }
+}

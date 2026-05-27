@@ -1,0 +1,3 @@
+Compass.gif from https://minecraft.wiki/w/Compass
+Curseforge-Buttom-64.png, Github-Button-64.png, Modrinth-Button-64.png from Modrinth
+Idea od logo.png and separator.png from https://modrinth.com/mod/soup-api
